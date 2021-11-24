@@ -1,0 +1,30 @@
+fields:
+  - field: field_use_instance1
+    from: v1.yaml
+    use: privateB{3},privateC{6:2}
+    postfix: "\t"
+
+  - field: field_use_instance2
+    from: v1.yaml
+    use: privateB{1},privateC{6:2}
+    postfix: "\t"
+
+  - field: field_use_instance3
+    from: v1.yaml
+    use: privateB{3},privateC{4:2}
+    postfix: "\t"
+
+  - field: field_use_instance4
+    from: v1.yaml
+    use: privateB{3},privateC{6:3}
+    postfix: "\t"
+
+  - field: field_use_instance5
+    from: v1.yaml
+    use: privateB{3},privateC{:3}
+    postfix: "\t"
+
+  - field: field_use_instance6
+    from: v1.yaml
+    use: privateB{3},{:3}
+    postfix: "\t"

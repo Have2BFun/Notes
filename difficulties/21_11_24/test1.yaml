@@ -1,0 +1,20 @@
+fields:x``
+  - field: first_part
+    range: 1-9{3},a-z{1:2}
+    postfix: "\t"
+
+  - field: second_part
+    range: 1-9{3},a-z{2:2}
+    postfix: "\t"
+
+  - field: third_part
+    range: 1-9{3},a-z{10:2}
+    postfix: "\t"
+
+  - field: fourth_part
+    range: 1-9{3},a-z{:2}
+    postfix: "\t"
+
+  - field: fifth_part
+    range: 1-9{3},a-z{2}
+    postfix: "\t"
